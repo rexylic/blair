@@ -1,0 +1,11 @@
+[package]
+name = "blair"
+version = "1.0.0"
+entrypoint = "format.typ"
+authors = ["Rex Fang <i@rexylic.com>"]
+license = "MIT"
+description = "Rex's Typst Template"
+
+[template]
+path = "template"
+entrypoint = "letter.typ"
