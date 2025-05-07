@@ -10,17 +10,6 @@ summary:
   - Can do a lot of things
   - Very good person
 sections:
-  - title: Education
-    preposition: from
-    entries:
-      - t1: BS
-        t2: University of Blueville
-        date:
-          from: 2020
-          to: 2025
-        content:
-          - Very good grades
-          - Club activities
   - title: Work Experience
     entries:
       - t1: Employee
