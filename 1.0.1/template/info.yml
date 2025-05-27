@@ -1,0 +1,34 @@
+name: John Smith
+address: 23 Front St, Blueville RN
+contacts:
+  - label: Phone
+    content: '+1 (234) 567-8989'
+  - label: GitHub
+    content: jsmith
+    link: https://www.github.com/jsmith
+summary:
+  - Can do a lot of things
+  - Very good person
+sections:
+  - title: Work Experience
+    entries:
+      - t1: Employee
+        t2: Company
+        date:
+          from: 2020-09
+          to: 2024-09
+        content:
+          - Did a lot of work
+          - Managed a lot of things
+  - title: Awards
+    preposition: from
+    compact: true
+    entries:
+      - t1: Good person award
+        t2: University of Blueville
+        date: 2024-08
+      - t1: Good student award
+        t2: University of Blueville
+        date: 
+          from: 2024-05
+          to: 2024-09
