@@ -9,3 +9,4 @@ description = "Rex's Typst CV Template"
 [template]
 path = "template"
 entrypoint = "letter.typ"
+thumbnail = "template/thumbnail.png"

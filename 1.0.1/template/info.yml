@@ -1,5 +1,6 @@
 name: John Smith
 address: 23 Front St, Blueville RN
+photo: true
 contacts:
   - label: Phone
     content: '+1 (234) 567-8989'
