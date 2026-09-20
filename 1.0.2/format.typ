@@ -32,7 +32,7 @@
   )
   #if "summary" in it.keys() {
     let summary = (
-      title: "自我评价",
+      title: "Summary",
       content: it.summary,
     )
     fmt-section(summary, true)

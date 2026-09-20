@@ -30,13 +30,12 @@
   heading(depth: 2, it)
 }
 
-#let present-text() = context text.lang
 #let show-date-range(it) = if dictionary != type(it) [
   #it
 ] else if ("to" in it.keys()) [
   #it.from -- #it.to
 ] else [
-  #it.from -- #present-text()
+  #it.from -- Present
 ]
 
 #let show-contact(it) = {
@@ -47,7 +46,6 @@
     link(
       it.link,
       {
-        set text(fill: luma(45%))
         underline(it.content)
       },
     )
@@ -107,12 +105,12 @@
 )
 
 #let show-heading(name) = {
-  show heading.where(depth: 1): set text(2em)
+  show heading.where(depth: 1): set text(1.5em)
   set align(left + top)
   heading(level: 1, name)
 }
 
-#let show-contacts(it, multiline: true) = {
+#let show-contacts(it, multiline: false) = {
   set align(right + top)
   set text(1em)
   if "address" in it.keys() [
